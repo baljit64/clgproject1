@@ -1,0 +1,697 @@
+*{
+    padding:0px;
+    margin:0px;
+     box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+label.password,label.email{
+    padding-top: 10px;
+    margin-bottom: 0px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+input[type="text"],input[type="password"] {
+     user-select: none;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgba(224, 224, 224, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 10px 10px ;
+    
+}
+.login-outer-box{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+   height:100vh;
+
+}
+
+.logo-bar{
+  text-align: left;
+  padding-left:10px ;
+
+}
+.sign-in{
+    color:#f9ad1c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.forget-password{
+           padding: 15px 0px;
+}
+a.forget{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding:10px 0px;   
+}
+.forget:hover{
+    text-decoration: underline;
+    color:#000000;
+}.logo-img{
+    width:180px;
+    height: 70px;
+    /* height:auto;
+    width: 100%; */
+    object-fit: contain;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+}
+.logo{
+    height:auto;
+    width:150px;
+    object-fit: contain;
+}
+.login-box{
+        display: flex;
+       
+}
+.login-inner-box{
+
+    box-shadow:rgb(129, 129, 129) 1px 2px 7px ;
+    place-items: center;
+    background: #FFFFFF;
+
+}
+.login-img-box{
+    padding-right: 0px !important;
+}
+.login-img{
+    object-fit: cover;
+    width: 100%;
+  height: 100%;
+ 
+}
+.sign-in-btn{
+    outline: none;
+  border-radius:5px;
+  color: #FFFFFF;
+    border: none;
+    background: #f9ad1c;
+    padding: 4px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+/*  */
+.sign-up-btn{
+    border-radius:5px;
+  color: #f9ad1c;
+  border: 1px solid #f9ad1c;
+    background: #FFFFFF;
+    padding: 4px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.sign-up-btn:hover{
+    background: #f9ad1c;
+    color: #FFFFFF;
+    transition:  1s;
+}
+.sign-in-btn:hover{
+    background:  #FFFFFF;
+   color:#e2a32d;
+   border: 1px solid #f9ad1c;
+   transition:  1s;
+}
+.form-content{
+      margin:0px 40px 20px ; 
+ }
+.sign-up-line{
+    padding: 20px 0px;
+   
+}
+
+span.signup{
+    color:#f9ad1c;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login-box-section{width:100%; display: flex; min-height: 100vh; justify-content: center; align-items: center;}
+.login-box-section-inner{width:100%; padding:0 ;   box-shadow:rgb(129, 129, 129) 1px 2px 7px ;    background: #FFFFFF;}
+
+/* signup page css */
+
+.sign-up-page-btns{
+
+    padding-bottom: 20px;
+}
+a.back-btn{
+    padding: 5px 30px ;
+    color: #f9ad1c;
+    background: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #f9ad1c;
+    border-radius: 6px;
+    justify-content: center;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.sign-up-page-btn{
+    background: #f9ad1c;
+    color:#FFFFFF;
+}
+.sign-up-page-btn:hover{
+    background:#f9ac1c7a ;
+}
+.sign-up{
+    color:#f9ad1c;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+a.back-btn{
+    padding: 7px 55px;
+}
+.terms-conditions{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.8);
+    padding-left: 3px;
+}
+
+/* landing page */
+
+.navbar{
+   position: relative;
+   z-index: 999;
+   padding:0;
+   box-shadow:rgb(129, 129, 129) 1px 2px 7px ;
+}
+.nav-btn{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+ }
+
+.menu-item{
+    position: relative;
+    padding: 20px 30px;
+    margin:auto;
+   font-weight: 400;
+   color: #000;
+   font-size: 16px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+
+}
+.Stationary-options{
+    display: none;
+    background: rgba(255, 255, 255, 1);
+    transition: 1s ease ;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 14px;  
+     left:0;
+   
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-options{
+    display: none;
+    background: rgba(255, 255, 255, 1);
+    transition: 1s ease ;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 14px;  
+    min-width: 348px;
+   left:0;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow:rgb(129, 129, 129) 1px 2px 7px ;
+}
+.branch-links  a{
+    text-decoration: none;
+         color:#000;
+         font-weight: 400;
+   padding:10px 17px  ;
+    transition: 0.5s; 
+   display: block;
+   font-family: 'Poppins', sans-serif;
+
+}
+.branch-links svg.svg-inline--fa {
+    margin-right: 8px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.branch-links a.fas{
+    margin-right: 10px;
+}
+.branch-links >a:hover {
+    background: #fab73c;
+    color: rgba(0,0,0,1);
+}
+
+.menu-item:hover .menu-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+ 
+    
+}
+.menu-item:hover .Stationary-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 380px;
+    box-shadow:rgb(129, 129, 129) 1px 2px 7px ;
+    position: absolute;
+   z-index: 10;
+  
+}
+
+.Stationary-options .branch-links a{
+    padding: 12px 9px;
+    font-weight: 400;
+}
+ .branch-links a:hover{
+    transform: scalex(1.01);
+    box-shadow: #000 1px 2px 7px;
+   
+}
+/* nav right side btn link */
+.sell-books{
+   
+    background: #f9ad1c;
+    color: #FFFFFF;
+    font-weight: 400  ;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+ text-transform: capitalize;
+ padding: 22px 19px;
+ position: relative;
+ z-index: 9;
+ font-family: 'Poppins', sans-serif;
+ cursor: pointer;
+
+}
+.sell-books:hover{
+    background: #6e4b09fd;
+    transition: 0.5s;
+}
+.sell-books .fa-plus-circle{
+    
+    margin-right: 10px;
+}
+.user-profile{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+   padding: 13px 0px;
+}
+
+/* navbar menu links */
+.menu-item  span.bottom-line{
+    background: #f9ad1c;
+    height:2px;
+     position:absolute;
+    display: block;
+    margin-top:5px;
+    left:50%;
+    right:50%;
+}
+.menu-item:hover span.bottom-line{
+    
+    transition: 0.3s ease-in;
+    left:10%;
+    right:10%;
+    
+}
+/* user links */
+.user-profile .fa-user-circle{
+ font-size: 40px;
+ color:rgba(0, 0, 0, 0.438);
+ text-decoration: none;
+}
+.user-options{
+    display: none;
+    background: rgba(255, 255, 255, 1);
+
+    box-shadow:rgb(129, 129, 129) 1px 2px 7px ;
+    font-size: 14px;  
+    text-transform: uppercase ;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+}
+.user-profile .fa-user-circle:hover{
+    color:#000;
+}
+.user-profile:hover .user-options {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in;
+    position: absolute;
+    left:-20px;
+width:180px;
+  top:100%;
+  z-index: 9999;
+}
+a.user-link{
+    position: relative;
+    
+    transition: .5s ease 0s;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color:#000;
+    border-bottom: 1px dashed #fab73c;
+}
+a.user-link:last-child{
+    border-bottom: none;
+
+}
+a.user-link:hover{
+    background:  #000 ;
+    color: #FFFFFF;transform: scaleY(1.1);
+}
+
+a.user-link:hover .fa-power-off{
+    color:rgba(255,0,0,1);
+}
+/* navbar expand btn */
+
+/* sign up page */
+.sign-up-body,.sign-in-body,.forget-body,.code-body{
+    background:#fab73c ;
+}
+/* first page banner  */
+    section.banner{
+        background:url(../images/bg5.jpg) no-repeat center;
+        
+        height:auto;
+        width:100%; 
+      background-size: cover;
+    }
+span.brand-color{
+    color: #f9ad1c;
+}
+.banner-text-area{
+  height:400px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto 20px;
+  width: 100%;
+   position: relative;
+   text-transform: uppercase;
+}
+.banner-headline{
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+  position: absolute;
+  bottom:15%;
+  left:5px;
+
+  /*  */
+  
+}
+
+.banner-search-box{
+    position: relative;
+}
+.banner-inputs {
+    font-size: 14px;
+ border-radius: 5px;
+ outline: none;
+}
+.search-btn{
+    border:none;
+    padding: 7px 23px;
+    border-radius: 6px;
+    background:#fab73c ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+
+    font-family: 'Poppins', sans-serif;
+}
+.search-box-content{
+   position: absolute;
+    bottom: -50px;
+  width:100%;
+  right:0;
+  background: rgba(144, 163, 153, 0.685);
+  box-shadow:rgb(129, 129, 129) 0px 2px 7px ;
+}
+/* featured section */
+
+.feaured-items-heading-box{
+ 
+    margin-top:7rem ;
+}
+.feaured-items-heading{
+    padding:.5rem 0;
+    border-bottom: 2px solid #f9ad1c;
+    font-size: 2.6rem;
+}
+/*   card */
+.featured-card{
+  
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 7px;
+    position: relative;
+    margin: 10px;
+    overflow:hidden ;   
+    transition: 0.5s;
+   
+}
+.featured-card:hover img{
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+}
+.card-circle{
+    position: relative;
+    width:100%;
+    height: 100%;
+   overflow:hidden ;
+    clip-path: circle(60% at center 0);
+  }
+.featured-card-content{
+    padding:20px;
+       position: absolute;
+    bottom:0px;
+    width:100%;
+ }
+ /* read more btn of featured cards */
+.featured-card-content a{
+    font-size:1.4rem;
+    color:#fff;
+    font-weight: 400;
+    text-decoration: none;
+    background:#f9ad1c ;
+    border-radius:2rem;
+    padding: .4rem 1rem;
+    display: block;
+    text-transform: capitalize;
+    width:60%;
+    
+}
+.best-selling{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:auto;
+    left:-20%;
+    background: rgba(255,0,0,1);
+    transform: rotate(311deg);
+  color:#FFF;   
+  padding-left: 1.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+/*  */
+
+
+
+.sell-fixed-circle{
+    position: fixed;
+    bottom:10%;
+    right:5%;
+    background: #f9ac1c9d;
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    
+}
+.sell-fixed-circle:hover{
+    /* background: rgba(255, 5, 5, 0.83); */
+    background: #f9ad1c;
+    box-shadow:rgb(206, 200, 200) 0px 2px 7px ;
+}
+.sell-fixed-circle a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFF;
+  padding:10px 5px;
+  text-transform: capitalize;
+}
+
+/* footer of first page */
+.footer-about{
+    height:400px;
+    background-color: #1C191A;
+}
+/* animated banner label text */
+
+/* code page css  */
+.req-code-btn{
+    background:#615f5f7a;
+    color:#000;
+    padding: 7px 10px;
+}
+.req-code-btn:hover{
+    background:#7472724d ;
+    color:#000;
+    border:none;
+}
+
+@media only screen and (max-width:767px) {
+    .form-content{
+        padding: 0px 20px;
+        font-size: 14px;
+    }
+    span.signup{
+        font-size: 14px;
+    }
+    .sign-in{
+        font-size: 20px;
+    }
+    .sign-in-btn,.sign-up-btn,a.back-btn{
+        padding: 5px 20px;
+    }
+    .sell-fixed-circle{
+        
+        height: 80px;
+        width: 80px;
+          
+    }
+    .sell-fixed-circle a{
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .search-box-content{
+        position: initial;
+    
+     }
+     .banner-headline{
+             font-size: 30px;
+     }
+}
+@media only screen and (max-width:575px)and (min-width:481px){
+    .sign-in-btn,.sign-up-btn,a.back-btn{
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+    .form-content{
+            margin:20px 15px; 
+         }
+   
+    .sign-in{
+        font-size: 16px;
+    }
+    .sell-fixed-circle{
+        
+        height: 60px;
+        width: 60px;
+               
+    }
+    .sell-fixed-circle a{
+           font-size: 14px;
+   
+    }
+}
+@media only screen and (max-width:480px){
+    .sign-in-btn,.sign-up-btn,a.back-btn{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .form-content{
+             margin:20px 20px; 
+         }
+      .sign-in{
+        font-size: 14px;
+    }
+    .sell-fixed-circle{
+      
+        height: 60px;
+        width: 60px;
+              
+    }
+    .sell-fixed-circle a{
+           font-size: 14px;
+      }
+    
+}
+@media only screen and (max-width:399px){
+    .sign-in-btn,.sign-up-btn,.back-btn{
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+    .form-content{
+         margin:20px 10px; 
+         }
+    a.back-btn{
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+    }
+@media only screen and (min-width:768px) and (max-width:991px){
+    .form-content{
+             margin:20px 80px; 
+         }
+    .sign-in-btn, .sign-up-btn{
+        padding: 7px 40px;
+    }
+    .featured-card-content a{
+        font-size:1rem;
+    }
+}
+}
+@media only screen and (min-width:992px) {
+      .form-content{
+      margin:10px 60px 20px ; 
+         }
+    .sign-up-btn{
+        padding: 7px 40px;
+    }
+      a.back-btn{
+        padding: 7px 55px;
+    }
+   .sign-up-form-content{
+       margin:1rem 3rem 2rem;
+   }
+}
+@media  only screen and (max-width:1200px) {
+    
+    .featured-card-content a{
+        font-size: 1.2rem;
+    }
+}
